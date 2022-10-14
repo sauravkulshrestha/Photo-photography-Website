@@ -5,6 +5,10 @@
     padding: 0px;
     /* top: 0px; */
 }
+#navbar ul{
+    /* opacity: 0.19; */
+    display: flex;
+}
 
 #navbar{
     display: flex;
@@ -106,6 +110,14 @@ margin: 5px 35px;
     /* opacity: 0.5; */
 
     z-index: -3;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
 }
 #services .box{
     /* position: absolute; */
@@ -220,6 +232,18 @@ transform: scale(1.05);
 #portfolio h1{
     font-family: 'Limelight', cursive;
     margin-top: 10px;
+}
+.btn{
+    padding: 6px 20px;
+    background-color: black;
+    color: wheat;
+    border: 2px groove #fff;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all ;
+    transition-duration: 0.5s;
 }
 #portfolio h2{
     display: inline-flex;
@@ -338,6 +362,14 @@ transform: scale(1.05);
 }
 .company,.Community,.Licensing,.Social{
    margin: 20px 80px;
+}
+.portfolio-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    font-family: 'Mate SC', serif;
 }
 .te{
     font-size: 21px;
